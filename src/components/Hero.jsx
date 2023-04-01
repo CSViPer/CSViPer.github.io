@@ -129,7 +129,7 @@ const Hero = () => {
           <Title>Think. Make. Solve.</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>What I Do</Subtitle>
+            <Subtitle>Surankan</Subtitle>
           </WhatWeDo>
           <Desc>
             I enjoy creating delightful, human-centered digital experiences.
