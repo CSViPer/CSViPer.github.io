@@ -31,7 +31,7 @@ const Map = () => {
         }
       </Geographies>
       <Annotation
-        subject={[2.3522, 48.8566]}
+        subject={[12.972442, 77.580643]}
         dx={-90}
         dy={-30}
         connectorProps={{
@@ -41,11 +41,11 @@ const Map = () => {
         }}
       >
         <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"Paris"}
+          {"Bangalore"}
         </text>
       </Annotation>
       <Annotation
-        subject={[21.01178, 52.22977]}
+        subject={[25.618530, 88.125587]}
         dx={-90}
         dy={-30}
         connectorProps={{
@@ -55,7 +55,7 @@ const Map = () => {
         }}
       >
         <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"Warsaw"}
+          {"Raiganj"}
         </text>
       </Annotation>
     </ComposableMap>

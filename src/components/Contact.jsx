@@ -82,10 +82,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_id",
-        "template_id",
+        "service_uw3gcsh",
+        "template_cncztr7",
         ref.current,
-        "public_key"
+        "arFv1amCj_AWn-UTn"
       )
       .then(
         (result) => {
@@ -103,7 +103,7 @@ const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Us</Title>
+            <Title>Contact Me</Title>
             <Input placeholder="Name" name="name" />
             <Input placeholder="Email" name="email" />
             <TextArea
